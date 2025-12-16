@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 
 const stats = [
     { value: "150+", label: "CLIENTS SERVED" },

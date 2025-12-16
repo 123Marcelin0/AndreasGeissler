@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import andreasImg from '../assets/andreas-geissler.png';
 
 const features = [
     {
@@ -26,7 +27,7 @@ const About = () => {
                     {/* Left Image - Portrait Style */}
                     <div className="relative aspect-[4/5] bg-gray-100 overflow-hidden">
                         <img
-                            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop"
+                            src={andreasImg}
                             alt="Andreas Geißler"
                             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                         />
